@@ -25,9 +25,7 @@
 							<a href="/feed.xml" title="Outvanity Blog RSS" data-hover="Outvanity Blog RSS">Outvanity Blog RSS</a>
 						</p>
                    
-						{% if{{paginator.total_posts}} ==" "%}
-						<p>总计文章：0篇</p>
-						{% else %}
+						   {% if paginator.posts%}
 						<p>总计文章：{{paginator.total_posts}}篇</p>
 
 					
